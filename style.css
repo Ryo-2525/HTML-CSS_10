@@ -66,10 +66,8 @@ footer {
   background-color: #aaaaaa;
 }
 
-
-@media screen and (max-width:768px) {
-  
-
+/* ここからレスポンシブ対応 */
+@media screen and (max-width: 768px) {
   main {
     width: 100%;
     display: block;
@@ -78,12 +76,10 @@ footer {
   .contents-box {
     width: 90%;
     margin: 0 auto;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
   }
+
   .contents-box:last-child {
     margin: 0 auto;
-  }
-
-
   }
 }
